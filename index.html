@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+
+        <link rel="shortcut icon" type="image/png" href="/icon.png" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>山車マップ</title>
+        <script type="module" crossorigin src="./assets/index.js"></script>
+        <link rel="stylesheet" crossorigin href="./assets/index.css" />
+    </head>
+    <body>
+        <main class="content">
+            <header class="header">
+                <h1 class="header-title" id="title">Title</h1>
+            </header>
+            <div class="container">
+                <div class="map" id="map"></div>
+                <div class="control-group" id="controls">
+                    <div
+                        class="checkbox-group child-group"
+                        id="checkboxes"></div>
+                    <div class="time-group child-group" id="timeControls">
+                        <button class="time-button" id="previousTime"></button>
+                        <input
+                            class="time-control"
+                            id="timeInput"
+                            type="datetime-local"
+                            step="60" />
+                        <button class="time-button" id="laterTime"></button>
+                    </div>
+                    <div class="child-group">
+                        <button class="location-button" id="locationButton">
+                            現在地を表示する
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="detail" id="detail">
+            <div class="detail-header">
+                <h2 class="detail-title" id="detailTitle">
+                    詳細ウィンドウタイトル
+                </h2>
+                <button class="detail-close" id="detailClose">
+                    <svg
+                        class="detail-close-icon icon glyph"
+                        data-icon-name="cross"
+                        data-style="glyph"
+                        icon_origin_id="3013"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="cross">
+                        <path
+                            d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"
+                            style="fill: rgb(0, 0, 0)"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="detail-content" id="detailContent">
+                詳細ウィンドウの説明欄。
+            </div>
+        </div>
+    </body>
+</html>

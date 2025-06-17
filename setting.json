@@ -1,0 +1,50 @@
+{
+    "title": "飯能夏祭り 2025",
+    "date": "20250719",
+    "period": 2,
+    "shift": 10,
+    "user": "./data/user.png",
+    "location": {
+        "x": 35.853,
+        "y": 139.32
+    },
+    "types": [
+        {
+            "name": "sokonuke",
+            "display": "底抜け屋台"
+        },
+        {
+            "name": "spot",
+            "display": "スポット"
+        }
+    ],
+    "movable": [
+        {
+            "key": "2-cho-me",
+            "name": "二丁目",
+            "texture": "./data/2-cho-me/icon.png",
+            "type": "sokonuke",
+            "data": "./data/2-cho-me/pos.csv",
+            "detail": {
+                "picture": "./data/2-cho-me/icon.png",
+                "text": "二丁目の詳細テキスト"
+            }
+        }
+    ],
+    "unmovable": [
+        {
+            "key": "operating-base",
+            "name": "お祭り本部",
+            "texture": "./data/unmovable/obj_1.png",
+            "type": "spot",
+            "position": {
+                "x": 35.854509666311834,
+                "y": 139.31604574422605
+            },
+            "detail": {
+                "picture": "./data/unmovable/obj_1.png",
+                "text": "お祭り本部の詳細テキスト"
+            }
+        }
+    ]
+}
