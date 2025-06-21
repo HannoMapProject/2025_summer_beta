@@ -1,5 +1,5 @@
 {
-    "title": "飯能夏祭り 2025",
+    "title": "飯能夏祭り 2025 (試験版)",
     "date": "20250719",
     "period": 2,
     "shift": 10,
@@ -26,8 +26,8 @@
             "type": "sokonuke",
             "data": "./data/2-cho-me/pos.csv",
             "detail": {
-                "picture": "./data/2-cho-me/icon.png",
-                "text": "二丁目の詳細テキスト"
+                "picture": "./data/2-cho-me/image.jpg",
+                "text": "二丁目の底抜け屋台です。演奏は貮丁目親和会です。"
             }
         }
     ],
@@ -43,7 +43,7 @@
             },
             "detail": {
                 "picture": "./data/unmovable/obj_1.png",
-                "text": "お祭り本部の詳細テキスト"
+                "text": "お祭り本部です。"
             }
         }
     ]
